@@ -1,4 +1,4 @@
-slideBox = (function(){
+slideBox = (function(){ //slidebox test
   
    if (!document.querySelector || !('classList' in document.body)) {
       return false;
@@ -36,3 +36,5 @@ slideBox = (function(){
   });
   navigate(0);
 })();
+
+//script
